@@ -1,0 +1,90 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+#main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #007bff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #2c3e50; ;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #005b3; 
+}
+
+#inputTask {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #e06a6a; 
+    width: calc(100% - 24px); 
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#todo-list {
+    list-style: none; 
+    padding: 0;
+    font-size: 110%;
+}
+
+#todo-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#todo-list li:last-child {
+    border-bottom: none;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+}
+
+.delete-task, .edit-task {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+}
+
+.delete-task:hover, .edit-task:hover {
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; 
+    height: 100vh; 
+}
+
+button {
+    margin: 0 10px; 
+}
+
+
